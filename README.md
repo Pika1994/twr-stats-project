@@ -28,3 +28,8 @@ playerClass.py: Defines the Player Class with the following constructors: Player
 
 test.py: Test scripts for the purpose of debugging. 
 
+# Contact Information:
+
+Bulbagarden: Pikochu
+Github: bvi1994
+Email: brandvi1994[at]gmail.com and bvi1[at]ucsc.edu
