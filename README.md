@@ -5,18 +5,18 @@ For more information about this project, go to this: http://forums.bulbagarden.n
 
 If you have any questions, you may contact the developer at Bulbagarden: "Pikochu" or email directly: brandvi1994 [at] gmail.com.
 
-<i>Last Update: Augest 2, 2016</i>
+<i>Last Update: August 2, 2016</i>
 
 # Current Needs: 
 <li>Create spreadsheets and csv of all the players in all Mafia game in Season 2016 in TWR with the following columns: Player's name, alignment, role and phase of death. If the player survives at the end game, phase of death value should be "0."
 
 <b><i>If you're interested in working on this project, please go to the thread above and contact me there.</b></i>
 
-<i>Last Update: Augest 2, 2016</i>
+<i>Last Update: August 2, 2016</i>
 
 # Contents:
 
-<i>Last Update: Augest 2, 2016</i>
+<i>Last Update: August 2, 2016</i>
 
 Player List [WiP]: Currently contains the Excel Files of the players of each Mafia game and the player's alignment. 
 
