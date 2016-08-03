@@ -36,6 +36,6 @@ test.py: Test scripts for the purpose of debugging.
 
 Bulbagarden: Pikochu
 
-Github: bvi1994
+Github: bvi1994 (Note: Pika1994 and bvi1994 are the same people)
 
 Email: brandvi1994[at]gmail.com and bvi1[at]ucsc.edu
