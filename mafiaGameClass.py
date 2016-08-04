@@ -76,7 +76,7 @@ class mafiaGameClass():
 		self.mafiaPlayers.remove(scum)
 		self.deadMafia.append(scum)
 		self.numofMafia -= 1	
-			
+		
 	def removeInd(self, ind):
 		self.indepPlayers.remove(ind)
 		self.deadIndep.append(ind)

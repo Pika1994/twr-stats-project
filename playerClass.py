@@ -1,32 +1,36 @@
 class Player(object):
-	name = ""
-	postCount = 1
-	alignment = ""
+
+# Attributes of Mafia player: username, alignment and role
 	
-# Attributes of Mafia player: username, postcount in-thread and the alignment
-	
-	def __init__(self, name, alignment, postCount=1):
+	def __init__(self, name, align, role):
 		self.name = name
-		self.postCount = postCount
-		self.alignment = alignment
+		self.alignment = align
+		self.role = role
+	
+	def setPlayerName(self, name):
+		self.name = name
+		
+	def setAlignment(self, align):
+		self.alignment = align
+		
+	def setRole(self, role):
+		self.role = role
+	
+	def getPlayerName(self):
+		return self.name
+	
+	def getPlayerAlign(self):
+		return self.alignment
+		
+	def getPlayerRole(self):
+		return self.role
 
-def addPlayer(name, align):
-	player = Player()
-	player.name = name
-	player.alignment = align
+		
+# Add player function
+def addPlayer(name, align, role):
+	player = Player(name, align, role)
 	return player
-
-'''	
-# DEBUG STATEMENT
-
-username = input("Enter a username: ")
-align = input("Enter an alignment: ")
-
-player1 = Player(username, align)
-
-print("The alignment of %s is %s and posted %d times" % (player1.name, player1.alignment, player1.
-	postCount))
-
-EXPECTED OUTPUT: "The alignment of USERNAME is ALIGN and posted 1 times"
-
-'''
+	
+#test = addPlayer("Zexy", "Mafia", "Godfather")
+#print("This player's name is %s aligned with %s and with role %s" % (test.getPlayerName(), 
+#	test.getPlayerAlign(), test.getPlayerRole()))
