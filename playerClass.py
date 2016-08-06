@@ -25,7 +25,6 @@ class Player(object):
 	def getPlayerRole(self):
 		return self.role
 
-		
 # Add player function
 def addPlayer(name, align, role):
 	player = Player(name, align, role)
